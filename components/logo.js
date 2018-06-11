@@ -16,7 +16,7 @@ export default () => <Fragment>
 
   <div className="logo">
     <a href="/">
-      <img src="static/nested-loops-logo.png" alt="Nested Loops Logo" />
+      <img src="/static/nested-loops-logo.png" alt="Nested Loops Logo" />
     </a>
   </div>
 </Fragment>
