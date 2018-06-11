@@ -9,6 +9,10 @@ export default ({ children }) => <>
   </Head>
   <main>
     <style jsx global>{`
+      * { 
+        box-sizing: border-box;
+      }
+
       html {
         background-color: #000;
         font-family: Nunito, sans-serif;
@@ -23,6 +27,7 @@ export default ({ children }) => <>
         text-align: center;
         font-size: 1.2rem;
         font-weight: 400;
+        text-transform: uppercase;
       }
 
       nav a {
@@ -48,7 +53,6 @@ export default ({ children }) => <>
   
       a, a:hover, a:active, a:visited {
         color: #fff;
-        text-transform: uppercase;
         letter-spacing: 2px;
       }
     `}</style>

@@ -1,4 +1,5 @@
 import Page from '../layouts/page';
+import Performances from '../mdx/performances.mdx';
 
 export default () => <Page>
   <style jsx>{`
@@ -9,16 +10,6 @@ export default () => <Page>
     }
   `}</style>
   <div>
-    <ul>
-      <li>
-        <a href="http://youtu.be/e6wrCr7bzSg">2018</a>
-      </li>
-      <li>
-        <a href="http://youtu.be/lCn-XCASn98">2017</a>
-      </li>
-      <li>
-        <a href="http://youtu.be/lJ1kY-CSpBk">2015</a>
-      </li>
-    </ul>
+    <Performances />
   </div>
 </Page>

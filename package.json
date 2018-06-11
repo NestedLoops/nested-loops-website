@@ -11,6 +11,8 @@
     "deploy": "npm run export && git add . && git commit -m 'new build' && git push && git subtree push --prefix out origin master"
   },
   "dependencies": {
+    "@mdx-js/mdx": "^0.10.0",
+    "@zeit/next-mdx": "^1.1.0",
     "next": "^6.0.3",
     "react": "^16.4.0",
     "react-dom": "^16.4.0"
