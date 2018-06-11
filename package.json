@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next build && next export",
-    "deploy": "npm run export && git add . && git commit -m 'new build' && git push && git subtree push --prefix out origin master -f"
+    "deploy": "npm run export && git add . && git commit -m 'new build' && git push && git subtree push --prefix out origin master"
   },
   "dependencies": {
     "next": "^6.0.3",
