@@ -1,8 +1,6 @@
 import Link from 'next/link';
 
-const { Fragment } = React;
-
-export default () => <Fragment>
+export default () => <>
   <nav>
     <ul>
       <li>
@@ -29,4 +27,4 @@ export default () => <Fragment>
       </li>
     </ul>
   </nav>
-</Fragment>
+</>

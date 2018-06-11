@@ -1,6 +1,4 @@
-const { Fragment } = React;
-
-export default () => <Fragment>
+export default () => <>
   <style jsx>{`
     .logo {
       max-width: 450px;
@@ -19,4 +17,4 @@ export default () => <Fragment>
       <img src="/static/nested-loops-logo.png" alt="Nested Loops Logo" />
     </a>
   </div>
-</Fragment>
+</>

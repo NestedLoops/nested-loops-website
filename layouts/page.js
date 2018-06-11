@@ -2,9 +2,7 @@ import Head from 'next/head';
 import Logo from '../components/logo';
 import Nav from '../components/nav';
 
-const { Fragment } = React;
-
-export default ({ children }) => <Fragment>
+export default ({ children }) => <>
   <Head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400" rel="stylesheet" />
@@ -58,4 +56,4 @@ export default ({ children }) => <Fragment>
     <Nav />
     { children }
   </main>
-</Fragment>;
+</>;
